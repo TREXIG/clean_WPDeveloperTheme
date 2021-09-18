@@ -6,7 +6,9 @@
  * @package WordPress
  * @subpackage clean
  */
-get_header(); // Подключаем хедер ?> 
-<h1>Ничего не найдено</h1>
+get_header(); // Подключаем хедер ?>
+<section class="section-main">
+	<h1>Ничего не найдено</h1>
+</section>
 <?php get_sidebar();  // Подключаем сайдбар ?>
 <?php get_footer(); // Подключаем футер ?>

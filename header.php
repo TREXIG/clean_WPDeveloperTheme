@@ -37,10 +37,12 @@
 ?>
 </head>
 <body>
-<?php
-		$args = array( // Выводим верхнее меню
-			'theme_location'=>'top',
-			'container'=>'',
-			'depth'=> 0);
-		wp_nav_menu($args);
-?>
+	<header>
+		<?php
+				$args = array( // Выводим верхнее меню
+					'theme_location'=>'top',
+					'container'=>'',
+					'depth'=> 0);
+				wp_nav_menu($args);
+		?>
+	</header

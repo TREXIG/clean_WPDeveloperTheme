@@ -5,7 +5,11 @@
  * @package WordPress
  * @subpackage clean
  */
+ ?>
+<footer>
 
+</footer>
+<?php 
 	wp_footer(); // Необходимо для нормальной работы плагинов
 ?>
 </body>
